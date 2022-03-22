@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  baseUrl: 'https://20.230.26.12/documentapi/'
+  baseUrl: 'https://francisjoy-dev-documentapp-3-1.038ecc66.lowtouch.cloud/'
   
 };
 
