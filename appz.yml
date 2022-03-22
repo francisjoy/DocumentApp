@@ -1,7 +1,7 @@
 app:
     name: DocumentApp
     code: DocumentApp
-    notify: ranjit.m@orioninc.com
+    notify: fjoy@ecloudcontrol.com
     
 build:
     version: 3.1
@@ -15,7 +15,7 @@ build:
     image_template: dotnet-3.1
     
 deploy:
-    context: RanjitMattamal/DEV
+    context: francisjoy/DEV
     replicas: 1
     port:
     - 80
@@ -23,4 +23,4 @@ deploy:
 properties:
    DLL: BookStore.API.dll
    ASPNETCORE_ENVIRONMENT: Development
-   revision: 1
+   revision: 14
